@@ -18,7 +18,7 @@ for result in data:
 
     inf = {
         "number": f"55{phone}",
-        "message": f"Oi {name}, venho informar através dessa mensagem que valor total referente a essa semana foi de {value}",
+        "message": f"OI {name}, caloteiro seu valor dessa semana é esse {value}",
     }
 
     req = requests.post("http://localhost:7005/send-message", data=inf)
