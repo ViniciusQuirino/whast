@@ -21,5 +21,5 @@ for result in data:
         "message": f"Oi {name}, venho informar através dessa mensagem que valor total referente a essa semana foi de {value}",
     }
 
-    req = requests.post("http://localhost:8005/send-message", data=inf)
+    req = requests.post("http://localhost:7005/send-message", data=inf)
     print(req)
